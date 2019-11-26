@@ -1,7 +1,0 @@
-#import "../fragments/resourceRecAttributes.graphql"
-
-query resourceAttributeTree($resourceId: ID!) {
-    resource(where: {id: $resourceId}) {
-        ...resourceRecAttributes
-    }
-}

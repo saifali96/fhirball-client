@@ -1,6 +1,0 @@
-query availableResources($database: String!) {
-    availableResources(database: $database) {
-        id
-        name
-    }
-}
